@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { Card, Counter, Loader, Error, NextQuestion } from "./index";
 
-const apiUrl = `http://jservice.io/api/random`;
+const apiUrl = `https://jservice.io/api/random`;
 
 const Trivia = () => {
   const [burneds, setBurneds] = useState(0);
